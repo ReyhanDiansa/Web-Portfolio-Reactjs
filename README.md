@@ -26,11 +26,6 @@ Install package with npm
 - Material UI
 - emailjs
 
-## Contact
-
-Reyhan Marsalino Diansa - [@reyhanmd._](https://instagram.com/reyhanmd._) - reyhandiansa@gmail.com
-
-Project Link: [https://github.com/reyhandiansa/Qr-Code-Generator](https://github.com/ReyhanDiansa/Web-Portfolio)
 
 ## Documentation
 
@@ -41,4 +36,11 @@ Project Link: [https://github.com/reyhandiansa/Qr-Code-Generator](https://github
 
 Deployment link:
   https://reyhanporto-reyhandiansa.vercel.app
+
+## Contact
+
+Reyhan Marsalino Diansa - [@reyhanmd._](https://instagram.com/reyhanmd._) - reyhandiansa@gmail.com
+
+Project Link: [https://github.com/reyhandiansa/Qr-Code-Generator](https://github.com/ReyhanDiansa/Web-Portfolio)
+
 
