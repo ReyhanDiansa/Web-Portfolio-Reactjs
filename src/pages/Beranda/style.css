@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.banner-text {
+  margin: 11rem 7rem 1rem 7rem;
+}
+
+.banner-image {
+  margin: 7rem 11rem 1rem 11rem;
+}
+
+.banner-title {
+  font-family: "Marcellus SC", serif !important;
+}
+
+.hello {
+  color: #ff6f01;
+}
+
+.banner-info {
+  font-family: "Marcellus SC", serif !important;
+}
+
+.shape {
+  position: relative;
+}
+
+.shape-1 {
+  position: absolute;
+  top: 0.5rem;
+  left: 3rem;
+}
+
+.me {
+  position: absolute;
+  top: -2rem;
+  left: 5rem;
+  filter: drop-shadow(0px 3px 7px #ff6f01);
+}
+
+.banner-button {
+  background-color: #ff6f01;
+  margin: 1rem 0;
+  padding: 0.9rem 2rem;
+  border: none;
+}
+
+.banner-link {
+  text-decoration: none;
+  color: white;
+  font-size: medium;
+}
+
+.garis {
+  border: 0;
+  /* color: #ff6f01; */
+  border-bottom: 2px dashed #ddd;
+  background: #ff6f01;
+  opacity: 0.6;
+  width: 90%;
+  margin: 5rem auto;
+}
+
+@media (min-width:600px ) and (max-width:920px){
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-text {
+    margin: 0;
+    padding: 27rem 2rem 0 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-text {
+    margin: 0;
+    padding: 24rem 2rem 0 2rem;
+  }
+  .banner-image {
+    margin: 0;
+    padding: 4.5rem 1rem 0.5rem 0;
+  }
+  .me {
+    width: 65%;
+  }
+  .shape-1 {
+    padding-left: 20px;
+    width: 71%;
+    height: auto;
+  }
+}

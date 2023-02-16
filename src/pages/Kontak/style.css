@@ -1,0 +1,58 @@
+.contact-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: auto;
+}
+
+.title-contact {
+  text-align: center;
+  font-family: "Marcellus SC", serif !important;
+  margin-bottom: 2rem;
+}
+
+.contact {
+  color: #ff6f01;
+}
+
+.button-contact {
+  background-color: #ff6f01;
+  margin: 1rem 0;
+  padding: 0.9rem 2rem;
+  border: none;
+  width: 20%;
+  color: white;
+  cursor: pointer;
+}
+
+.alert {
+  width: 50%;
+  margin: 1rem auto 1rem auto;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .button-contact {
+        width: 50%;
+      }
+}
+
+@media (max-width: 600px) {
+    .title-contact {
+        font-family: "Marcellus SC", serif !important;
+        margin-bottom: 2rem;
+      }
+  .contact-form {
+    width: 300px !important;
+    margin: 0 1rem 0 1rem;
+  }
+  .button-contact {
+    width: 50%;
+  }
+  .alert {
+    width: 80%;
+    margin: 1rem auto 1rem auto;
+  }
+}

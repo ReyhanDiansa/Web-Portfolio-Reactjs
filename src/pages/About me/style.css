@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.about {
+  margin: 4rem auto 0 auto;
+  width: 75%;
+  height: auto;
+  font-family: "Marcellus SC", serif !important;
+}
+
+.about-text {
+  background-color: #fff2e8;
+  margin: 0 1rem 0 1rem;
+  width: 75%;
+}
+
+.about-text h1 {
+  margin: 1rem 3rem 0 3rem;
+}
+
+.about-text-info {
+  padding: 1rem 3rem 0 3rem;
+}
+
+.who {
+  color: #ff6f01;
+}
+
+.text-orange {
+  color: #ff6f01;
+  font-size: x-large;
+}
+
+.icon {
+  padding: 2.6rem 3.5rem 0 3.5rem;
+  gap: 25px;
+  color: #ff6f01;
+}
+
+@media (min-width:600px ) and (max-width:920px){
+
+  .about{
+    margin: 0 1rem 0 1rem;
+    width: 90%;
+  }
+
+  .about-image{
+    padding: 0 1rem 0 1rem ;
+    width: 30%;
+  }
+  .about-image img {
+    padding: 2rem 0 0 0;
+    width: 100%;
+  }
+
+  .about-text {
+    margin: 2rem 0 2rem 0;
+    width: 60%;
+    font-size: small;
+  }
+
+  .text-orange {
+    font-size: medium;
+  }
+
+  .icon {
+    padding: 1rem 3.5rem 1rem 3.5rem;
+  }
+  .icon-link svg{
+    width: 20px !important;
+    height: 20px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .about {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .about-image img {
+    padding: 5rem 4rem 0 4rem;
+    width: 80%;
+  }
+
+  .about-text {
+    margin: 3rem 2.5rem 2rem 2.5rem;
+    width: 100%;
+    font-size: small;
+  }
+
+  .text-orange {
+    font-size: large;
+  }
+
+  .icon {
+    padding: 1rem 3.5rem 1rem 3.5rem;
+  }
+  .icon-link svg{
+    width: 20px !important;
+    height: 20px !important;
+  }
+}

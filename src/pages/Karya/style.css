@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap");
+
+.card-container{
+    margin: 1rem;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 360px;
+}
+.title-project{
+    text-align: center;
+  font-family: "Marcellus SC", serif !important;
+margin-bottom: 2rem;
+}
+
+.project{
+    color: #ff6f01;
+}
+
+.button{
+    color: #ff6f01;
+    text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+    .card {
+      width: 48% !important; /* Set the width to 48% for tablet */
+    }
+  }
+
+@media (max-width: 600px) {
+    .card{
+        height: 390px !important;
+        width: 360px !important;
+    }
+}

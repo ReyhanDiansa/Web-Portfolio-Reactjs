@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+
+.myname{
+    font-family: 'Marcellus SC', serif !important;
+}
+
+.navbar{
+    position: fixed;
+}
