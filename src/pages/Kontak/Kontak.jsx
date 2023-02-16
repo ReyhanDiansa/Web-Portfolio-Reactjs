@@ -3,6 +3,7 @@ import emailjs from "emailjs-com";
 import { TextField, Button, Alert } from "@mui/material";
 import "./style.css";
 import { alpha, styled } from '@mui/material/styles';
+import Footer from "../../components/Footer/Footer";
 
 const Kontak = () => {
   const [show, setShow] = useState(false);

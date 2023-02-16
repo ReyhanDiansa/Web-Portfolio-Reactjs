@@ -58,7 +58,6 @@ const Beranda = () => {
           <Karya />
           <hr className="garis"/>
          <Kontak />
-         <Footer/>
     </>
   );
 };

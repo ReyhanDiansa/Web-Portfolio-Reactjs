@@ -11,6 +11,7 @@ import qr from "../../assets/images/qr.png";
 import quiz from "../../assets/images/quiz.png";
 import spp from "../../assets/images/spp.png";
 import vtour from "../../assets/images/vtour.png";
+import Footer from "../../components/Footer/Footer";
 
 export default function Karya() {
   return (
