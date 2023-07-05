@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Weather App",
+        "desk": "Weather App adalah website menggunakan React js dan API dari OpenWeatherMap serta OpenStreetMap, website ini digunakan untuk melihat prakiraan cuaca terkini dari suatau daerah yang telah diinputkan.",
+        "demo": "https://idweather.vercel.app/",
+        "see_code": "https://github.com/ReyhanDiansa/Weather-App",
+        "image": "../karya_images/cloud.png",
+        "alt": "Weather App"
+    },
+    {
+        "title": "QR Code Generator",
+        "desk": " QR Code Generator adalah website menggunakan React js dan API dari goqr.me, website ini digunakan untuk membuat qr code berdasarkan url yang telah diinpitkan.",
+        "demo": "https://qrgen-livid.vercel.app/",
+        "see_code": "https://github.com/ReyhanDiansa/Qr-Code-Generator",
+        "image": "../karya_images/qr.png",
+        "alt": "QR Code Generator"
+    },
+    {
+        "title": "Quiz App",
+        "desk": " Quiz App adalah website menggunakan Node js, ejs, dan Mongodb, website ini hanya dapat di run di local dan menggunakan database local.",
+        "demo": "null",
+        "see_code": "https://github.com/ReyhanDiansa/Quiz-App",
+        "image": "../karya_images/quiz.png",
+        "alt": "Quiz App"
+    },
+    {
+        "title": "SPPku",
+        "desk": "SPPku adalah website pembayaran SPP untuk siswa dan input pembayaran oleh admin yang halamanya berbeda, website ini menggunakan PHP dan mysql yang hanya dapat di run di local dan menggunakan database local.",
+        "demo": "null",
+        "see_code": "https://github.com/ReyhanDiansa/UKL-SPP",
+        "image": "../karya_images/spp.png",
+        "alt": "SPP App"
+    },
+    {
+        "title": "Virtual Tour SMK Telkom Malang",
+        "desk": "Vtour Smk Telkom Malang, merupakan kumpulan gambar SMK Telkom Malang 360 derajat yang digabungkan sehingga bisa melakukan tur secara virtual. Vtour ini berbasis Website",
+        "demo": "https://vtour.smktelkom-mlg.sch.id/",
+        "see_code": "null",
+        "image": "../karya_images/vtour.png",
+        "alt": "Vtour SMK Telkom Malang"
+    },
+    {
+        "title": "KonterAttack",
+        "desk": "KonterAttack adalah Website Penjualan Smartphone menggunakan Nextjs",
+        "demo": "https://konter-attack.vercel.app",
+        "see_code": "https://github.com/ReyhanDiansa/KonterAttack/tree/main",
+        "image": "../karya_images/konter.png",
+        "alt": "KonterAttack"
+    },
+    {
+        "title": "CumaNginep",
+        "desk": "CumaNginep adalah Website untuk administrasi hotel yang diperuntukkan untuk admin dan resepsionis hotel. Website ini dibuat dengan Nodejs(Backend), Nextjs(Frontend), dan MySQL",
+        "demo": "null",
+        "see_code": "https://github.com/ReyhanDiansa/CumaNginep",
+        "image": "../karya_images/hotel.png",
+        "alt": "CumaNginep"
+    }
+]

@@ -40,6 +40,7 @@ const TentangSaya = () => {
             forward to sharing my journey with you.
           </Typography>
           <Box sx={{ display: "flex" }} className="icon">
+            <div className="icon-wrap">
             <Box className="icon-button">
               <IconButton
                 size="large"
@@ -74,6 +75,7 @@ const TentangSaya = () => {
                 <GitHubIcon className="icon-comp" />
               </IconButton>
             </Box>
+            </div>
             <div className="statistik">
               <img
                 src="https://github-readme-stats.vercel.app/api/top-langs/?username=ReyhanDiansa&layout=compact&theme=tokyonight&bg_color=rgba(255,111,1)"
