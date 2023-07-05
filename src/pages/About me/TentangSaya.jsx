@@ -8,6 +8,11 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import Footer from "../../components/Footer/Footer";
 
 const TentangSaya = () => {
+  const handleDownload = () => {
+    const downloadLink = document.createElement("a");
+    downloadLink.href = "/CV/Reyhan Marsalino Diansa_CV.pdf";
+    downloadLink.click();
+  };
   return (
     <>
       <Box sx={{ display: "flex" }} className="about">
@@ -41,40 +46,40 @@ const TentangSaya = () => {
           </Typography>
           <Box sx={{ display: "flex" }} className="icon">
             <div className="icon-wrap">
-            <Box className="icon-button">
-              <IconButton
-                size="large"
-                edge="start"
-                color="inherit"
-                aria-label="logo"
-                href="https://www.instagram.com/reyhanmd._"
-                className="icon-link"
-                style={{
-                  borderRadius: 50,
-                  backgroundColor: "#fbcdab",
-                  fontSize: "18px",
-                }}
-              >
-                <InstagramIcon />
-              </IconButton>
-            </Box>
-            <Box className="icon-button">
-              <IconButton
-                size="large"
-                edge="start"
-                color="inherit"
-                aria-label="logo"
-                style={{
-                  borderRadius: 50,
-                  backgroundColor: "#fbcdab",
-                  fontSize: "18px",
-                }}
-                className="icon-link"
-                href="https://www.github.com/ReyhanDiansa"
-              >
-                <GitHubIcon className="icon-comp" />
-              </IconButton>
-            </Box>
+              <Box className="icon-button">
+                <IconButton
+                  size="large"
+                  edge="start"
+                  color="inherit"
+                  aria-label="logo"
+                  href="https://www.instagram.com/reyhanmd._"
+                  className="icon-link"
+                  style={{
+                    borderRadius: 50,
+                    backgroundColor: "#fbcdab",
+                    fontSize: "18px",
+                  }}
+                >
+                  <InstagramIcon />
+                </IconButton>
+              </Box>
+              <Box className="icon-button">
+                <IconButton
+                  size="large"
+                  edge="start"
+                  color="inherit"
+                  aria-label="logo"
+                  style={{
+                    borderRadius: 50,
+                    backgroundColor: "#fbcdab",
+                    fontSize: "18px",
+                  }}
+                  className="icon-link"
+                  href="https://www.github.com/ReyhanDiansa"
+                >
+                  <GitHubIcon className="icon-comp" />
+                </IconButton>
+              </Box>
             </div>
             <div className="statistik">
               <img
@@ -85,6 +90,9 @@ const TentangSaya = () => {
           </Box>
         </Box>
       </Box>
+      <div className="button-cv">
+        <button onClick={handleDownload}>See and Download My CV</button>
+      </div>
     </>
   );
 };

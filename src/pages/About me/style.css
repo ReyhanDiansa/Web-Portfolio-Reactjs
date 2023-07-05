@@ -46,6 +46,24 @@
   gap: 25px;
 }
 
+.button-cv{
+  margin: 1rem 12rem;
+}
+
+.button-cv button{
+  background-color: white;
+  font-weight: bold;
+  border: 2px solid #ff6f01 ;
+  padding: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button-cv button:hover{
+  transform: scale(1.1);
+}
+
 @media (min-width:600px ) and (max-width:920px){
 
   .about{
@@ -118,5 +136,8 @@ padding-left:1rem ;
 
   .statistik img{
     width: 12rem;
+  }
+  .button-cv{
+    margin: 0 2.5rem;
   }
 }
